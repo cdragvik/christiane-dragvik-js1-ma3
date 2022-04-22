@@ -1,0 +1,31 @@
+.gamesSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.container {
+    border: 3px solid green;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: darkblue;
+}
+
+h2 {
+    color: darkred;
+}
+
+.error {
+    font-size: 30px;
+    border: 3px solid red;
+    background-color: rgba(255, 0, 0, 0.132);
+    color: red;
+    padding: 20px;
+    border-radius: 20px;
+}
