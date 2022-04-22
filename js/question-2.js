@@ -30,15 +30,12 @@ async function games() {
             </div>`
         }
     }
-    
         
     catch(error) {
         console.log("Error occured");
         gamesContainer.innerHTML = `<div class="error">Ups! An error has occured.</div>`;
 
     }
-
-
 }
 
 games();
